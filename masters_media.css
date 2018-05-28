@@ -1,0 +1,42 @@
+@media screen and (max-width: 1024px){
+    
+    body {
+        overflow: auto;
+    }    
+}
+
+
+@media  screen and (max-width: 480px){
+.main-header {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+   
+    background: none ;
+    }
+    
+    .main-header a {
+      color: #DE0079;  
+    }
+    
+    .wrapper-header {
+       display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+     
+    }
+    
+    .social {
+        background: ;
+    }
+    
+    .social a {
+        color:#009DDF;
+    }
+    
+    }
